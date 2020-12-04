@@ -9,7 +9,7 @@ from albertv0 import *
 __iid__ = 'PythonInterface/v0.1'
 __prettyname__ = 'Alter Ego'
 __version__ = '0.1'
-__trigger__ = 'c'
+__trigger__ = 'cc'
 __author__ = 'Dante Calderon'
 
 specialChars = {
@@ -52,3 +52,4 @@ def handleQuery(query):
         item.addAction(ClipAction('Copy result to clipboard', result))
 
     return item
+

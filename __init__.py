@@ -23,6 +23,8 @@ specialChars = {
  "I": "Í",
  "O": "Ó",
  "U": "Ú",
+ "N": "Ñ",
+ "n": "ñ",
  # I need add macros
  "`": "~",
  "q": "~",

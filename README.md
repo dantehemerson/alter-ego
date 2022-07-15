@@ -1,6 +1,22 @@
-# Alter Ego
+# Spanish Characters - Albert Plugin
 
-🈂️ Convert some ASCII characters to mapped special characters.
+🈂️ Convierte las vocales en Ingles a vocales con tilde.
+
+Util si usas un teclado en formato Ingles.
+
+**Uso**
+
+```
+Synopsis: `sc <char | key>`
+```
+
+**Example**
 
 
-Synopsis: `<trigger> <char | key>`
+```
+sc a
+
+
+Will show:
+- á
+```

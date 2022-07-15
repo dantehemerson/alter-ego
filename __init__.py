@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 
-'''Convert some ASCII characters to mapped special characters.
+'''Convert English vocals to spanish with accent mark.
 
-Synopsis: <trigger> <char | key>'''
+Synopsis: sc <char | key>'''
 
-from albertv0 import *
+from albert import *
 
-__iid__ = 'PythonInterface/v0.1'
-__prettyname__ = 'Alter Ego'
-__version__ = '0.1'
-__trigger__ = 'cc'
-__author__ = 'Dante Calderon'
+__title__ = 'Spanish Characters'
+__version__ = '0.4.1'
+__triggers__ = 'la '
+__authors__ = 'dantehemerson'
 
 specialChars = {
  "a": "á",
@@ -25,9 +24,6 @@ specialChars = {
  "U": "Ú",
  "N": "Ñ",
  "n": "ñ",
- # I need add macros
- "`": "~",
- "q": "~",
 }
 
 def handleQuery(query):
@@ -46,7 +42,7 @@ def handleQuery(query):
             success = True
 
     if not success:
-        item.text = "Not Found"
+        item.text = "Alternative Character Not Found"
         item.subtext = 'Type some character'
         success = False
 
